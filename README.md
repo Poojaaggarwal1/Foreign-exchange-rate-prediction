@@ -1,6 +1,7 @@
 # Foreign-exchange-rate-prediction
+Long short term memory (LSTM ) used to predict currency exchange rate for 22 countries-currencies against United States Dollar(USD) simultaneously. The model is trained to predict foreign currency exchange rate for 30 consecutive days by taking input of last 365 days for 22 countries simultaneously.
 
-# Data plot 
+### Data plot 
 Foreign exchange rate values plot of 2019-12-31
 ![alt tag](https://user-images.githubusercontent.com/50958067/90127723-410c4980-dd83-11ea-81c9-ed297f94b63d.png)
 
@@ -10,7 +11,7 @@ Foreign exchange rate values Indian rupees against USD plot from 2017-01-01 to 2
 
 
 
-# Result
+### Result
 Prediction of Foreign exchange rate values for Indian rupees against USD plot from date 2018-01-25 to 2018-02-24 (i.e. 365th to 395th day from
 2017-01-25) actual (green) vs predicted(red)<br />
 ![alt tag](https://user-images.githubusercontent.com/50958067/90128027-ce4f9e00-dd83-11ea-8e6d-d1853c92a634.png)

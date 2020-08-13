@@ -1,6 +1,6 @@
 # Foreign-exchange-rate-prediction
-Long short term memory (LSTM ) used to predict currency exchange rate for 22 countries-currencies against United States Dollar(USD) simultaneously. The model is trained to predict foreign currency exchange rate for 30 consecutive days by taking input of last 365 days for 22 countries simultaneously.
-
+Long short term memory (LSTM ) is used to predict currency exchange rate for 22 countries-currencies against United States Dollar(USD) simultaneously. The model is trained to predict foreign currency exchange rate for 30 consecutive days by taking input of last 365 days for 22 countries simultaneously.<br />
+Data source : https://www.kaggle.com/brunotly/foreign-exchange-rates-per-dollar-20002019
 ### Data plot 
 Foreign exchange rate values plot of 2019-12-31
 ![alt tag](https://user-images.githubusercontent.com/50958067/90127723-410c4980-dd83-11ea-81c9-ed297f94b63d.png)

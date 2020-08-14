@@ -1,5 +1,6 @@
 # Foreign-exchange-rate-prediction
-Long short term memory (LSTM ) is used to predict currency exchange rate for 22 countries-currencies against United States Dollar(USD) simultaneously. The model is trained to predict foreign currency exchange rate for 30 consecutive days by taking input of last 365 days for 22 countries simultaneously.<br />
+
+A Comparison between long short term memory (LSTM ),  simple recurrent neural networks (SRNN) and gated recurrent unit (GRU)  to predict currency exchange rate for 22 countries currencies  against United States Dollar(USD) simultaneously. The models are trained to predict foreign currency exchange rate for 30 consecutive days by taking input of last 365 days for 22 countries simultaneously. The models are designed with same number of neural connection layers  , input , targeted output , optimizer and learning rate.
 Data source : https://www.kaggle.com/brunotly/foreign-exchange-rates-per-dollar-20002019
 ### Data plot 
 Foreign exchange rate values plot of 2019-12-31
@@ -12,6 +13,7 @@ Foreign exchange rate values Indian rupees against USD plot from 2017-01-01 to 2
 
 
 ### Result
+LSTM model with structure 200-100-30 with no specified activation function provided the best results a shown below:  
 Prediction of Foreign exchange rate values for Indian rupees against USD plot from date 2018-01-25 to 2018-02-24 (i.e. 365th to 395th day from
 2017-01-25) actual (green) vs predicted(red)<br />
 ![alt tag](https://user-images.githubusercontent.com/50958067/90128027-ce4f9e00-dd83-11ea-8e6d-d1853c92a634.png)

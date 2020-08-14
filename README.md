@@ -14,11 +14,12 @@ Foreign exchange rate values Indian rupees against USD plot from 2017-01-01 to 2
 
 ### Result
 LSTM model with structure 200-100-30 with no specified activation function provided the best results a shown below:  
-Prediction of Foreign exchange rate values for Indian rupees against USD plot from date 2018-01-25 to 2018-02-24 (i.e. 365th to 395th day from
-2017-01-25) actual (green) vs predicted(red)<br />
-![alt tag](https://user-images.githubusercontent.com/50958067/90128027-ce4f9e00-dd83-11ea-8e6d-d1853c92a634.png)
 
 Loss function<br />
+![alt tag](https://user-images.githubusercontent.com/50958067/90128027-ce4f9e00-dd83-11ea-8e6d-d1853c92a634.png)
+
+Prediction of Foreign exchange rate values for Indian rupees against USD plot from date 2018-01-25 to 2018-02-24 (i.e. 365th to 395th day from
+2017-01-25) actual (green) vs predicted(red)<br />
 ![alt tag](https://user-images.githubusercontent.com/50958067/90128184-1c64a180-dd84-11ea-8742-666d58b8e9b0.png)
  
 Dataset| Mean squared error(mse) | Mean absolute error(mae) |

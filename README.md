@@ -1,6 +1,6 @@
 # Foreign-exchange-rate-prediction
 
-A Comparison between long short term memory (LSTM ),  simple recurrent neural networks (SRNN) and gated recurrent unit (GRU)  to predict currency exchange rate for 22 countries currencies  against United States Dollar(USD) simultaneously. The models are trained to predict foreign currency exchange rate for 30 consecutive days by taking input of last 365 days for 22 countries simultaneously. The models are designed with same number of neural connection layers  , input , targeted output , optimizer and learning rate.
+A Comparison between long short term memory (LSTM ),  simple recurrent neural networks (SRNN) and gated recurrent unit (GRU)  to predict currency exchange rate for 22 countries currencies  against United States Dollar(USD) simultaneously. The models are trained to predict foreign currency exchange rate for 30 consecutive days by taking input of last 365 days for 22 countries simultaneously. The models are designed with same number of neural connection layers, input, targeted output, optimizer and learning rate.
 Data source : https://www.kaggle.com/brunotly/foreign-exchange-rates-per-dollar-20002019
 ### Data plot 
 Foreign exchange rate values plot of 2019-12-31

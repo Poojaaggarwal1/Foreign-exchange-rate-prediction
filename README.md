@@ -13,7 +13,7 @@ Foreign exchange rate values Indian rupees against USD plot from 2017-01-01 to 2
 
 
 ### Result
-LSTM model with structure 200-100-30 with no specified activation function provided the best results a shown below:  
+LSTM model provided the best results a shown below:  
 
 Loss function<br />
 ![alt tag](https://user-images.githubusercontent.com/50958067/90128027-ce4f9e00-dd83-11ea-8e6d-d1853c92a634.png)
